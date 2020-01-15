@@ -1,3 +1,7 @@
+# Platform independent problem: "File not found" when trying to compile from the command line (platform-ide-terminal)
+
+This means you spelled the file name wrong or you are not in the directory where the file is. First check the spelling and make sure you type `javac HelloWorld.java`. If that doesn't help, type `pwd` at at the command line where you are trying to compile the program. This will tell you what directory you are in. You should be in the  `src` directory for this problem set. If you are not, you are most likely one directory too high. You can move into the `src` directory by typing `cd src`. 
+
 # Windows problems (For Mac problems, see below)
 
 ## Problem: " 'javac' is not recognized as an internal or external command " (*new and improved directions!*)
